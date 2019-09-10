@@ -32,7 +32,6 @@ clone https://github.com/pthom/northwind_psql.git
 
 Answer the following data queries. Keep track of the SQL you write by pasting it into this document under its appropriate header below. You will be submitting that through the regular fork, change, pull process.
 
-
 ### find all customers that live in London. Returns 6 records.
 > This can be done with SELECT and WHERE clauses
 
@@ -78,7 +77,6 @@ WHERE length (company_name) > 20
 SELECT *
 FROM customers
 WHERE upper(contact_title) LIKE '%MARKET%'
-
 
 ### add a customer record for   
 * customer id is 'SHIRE'
